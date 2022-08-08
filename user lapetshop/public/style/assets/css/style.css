@@ -1,0 +1,141 @@
+body {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.8;
+    color: grey;
+    font-family: 'Poppins';
+}
+
+.card-img-top {
+    height: 15vh;
+    object-fit: contain;
+    padding-top: 10px;
+
+}
+.card-img-center {
+    height: 15vh;
+    object-fit: contain;
+    padding: 10px;
+
+}
+
+.owl-theme,
+.owl-nav[class*="owl-"]:hover {
+    background: transparent;
+}
+
+.kataJudul {
+    color: black;
+    padding-left: 10px;
+    font-weight: 500;
+    margin-top: 3em;
+}
+
+.carousel-item {
+    height: 32rem;
+    background: transparent;
+    color: rgb(255, 255, 255);
+    position: relative;
+}
+
+@media screen and (max-width: 450px) {
+    .carousel-item {
+        height: 20rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .carousel-item {
+        height: 10rem;
+    }
+}
+
+
+.jarak {
+    margin-top: 1em;
+}
+
+.cont-edit {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+}
+
+.overlay-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: center;
+    background-size: cover;
+}
+
+.section-footer a {
+    color: #071C4D;
+    text-decoration: none
+}
+
+.section-footer a:hover {
+    color: #ff0062;
+    text-decoration: underline
+}
+
+.jarak a {
+    background-color: darkorange;
+    color: white;
+}
+
+.jarak a:hover {
+    color: #000;
+    background-color: #293df1;
+}
+
+.warna {
+    color: red;
+}
+
+main{
+    margin-bottom: 13em;
+}
+
+footer li {
+    font-weight: 400;
+}
+
+.join-container a:hover {
+    color: #000;
+    background-color: #293df1;
+}
+.color-dark{
+    color:#2B2B2B;
+}
+.text-shadow {
+    text-shadow: 2px 2px 4px rgba(90, 81, 81, 0.782);
+}
+.box-shadow {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.25), 
+    0 2px 2px rgba(0,0,0,0.20), 
+    0 4px 4px rgba(0,0,0,0.15), 
+    0 8px 8px rgba(0,0,0,0.10),
+    0 16px 16px rgba(0,0,0,0.05);
+}
+
+.nav-box-shadow{
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12), 
+              0 2px 2px rgba(0,0,0,0.12), 
+              0 4px 4px rgba(0,0,0,0.12), 
+              0 8px 8px rgba(0,0,0,0.12),
+              0 16px 16px rgba(0,0,0,0.12);
+}
+.drop-shadow{
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+}
+.mt-10{
+    margin-top:10em;
+}
+.position-fixed{
+    z-index: 1000;
+}
